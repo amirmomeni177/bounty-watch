@@ -1,0 +1,45 @@
+{
+  "programs": {
+    "h1:meesho_bbp": {
+      "name": "Meesho",
+      "url": "https://hackerone.com/meesho_bbp",
+      "bounty": 0,
+      "scope": [
+        "com.valmo.ops",
+        "com.valmo.rider",
+        "console.valmo.in",
+        "grocery-supplier.meesho.com"
+      ],
+      "first": "2026-11-17",
+      "upd": "2026-11-17",
+      "hunt": 0,
+      "parts": {
+        "fresh": 0,
+        "momentum": 0,
+        "surface": 0,
+        "reward": 0,
+        "unsaturated": 0
+      },
+      "hy": []
+    },
+    "h1:epicgames": {
+      "name": "Epic Games",
+      "url": "https://hackerone.com/epicgames",
+      "bounty": 0,
+      "scope": [
+        "EpicGamesLauncher v2"
+      ],
+      "first": "2026-11-17",
+      "upd": "2026-11-17",
+      "hunt": 0,
+      "parts": {
+        "fresh": 0,
+        "momentum": 0,
+        "surface": 0,
+        "reward": 0,
+        "unsaturated": 0
+      },
+      "hy": []
+    }
+  }
+}
