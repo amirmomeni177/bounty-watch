@@ -1,1 +1,1 @@
-{"last":"2026-11-18","pending":[]}
+{"last":"2026-11-18","pending":[{"program":"it:posti/postibugbounty","new_scope":["admin.postikuori.posti.fi","api.postikuori.posti.fi","cms.postikuori.posti.fi","etavarasto.posti.fi","iam.postikuori.posti.fi","iamapp.postikuori.posti.fi","rebl-ai-webchat-postikuori.azurewebsites.net"]},{"program":"h1:visa","new_scope":["https://ebctest.cybersource.com/unifiedpayments"]},{"program":"bc:t-mobile","new_scope":["Self-Register Account on T-Mobile Microsoft Entra ID and Access Tenant Resources"]}]}
