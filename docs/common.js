@@ -1,9 +1,4 @@
-// Shared scope-type classifier. Asset strings are classified by shape since platforms label types differently.
-const STYPES = {w: "Wildcards", d: "Domains / URLs", m: "Mobile apps", i: "IP ranges", c: "Source code", o: "Other"};
-const RDNS = /^(com|org|net|io|de|fr|nl|app|co|uk|ai|tv|me|ch|se|be|dk|no|fi|br|jp|au|ca|in|es|it|pl|at)\.[\w-]+(\.[\w-]+)+$/i;
-function stype(a){
-  a = String(a).trim();
-  if(/play\.google\.com|apps\.apple\.com|itunes\.apple\.com|^id\d{6,}$|^\d{9,10}$/i.test(a) || (RDNS.test(a) && !/\//.test(a) && !/\.(com|net|org|io|de|fr|nl|app|co|ai)$/i.test(a))) return "m";
+google\.com|apps\.apple\.com|itunes\.apple\.com|^id\d{6,}$|^\d{9,10}$/i.test(a) || (RDNS.test(a) && !/\//.test(a) && !/\.(com|net|org|io|de|fr|nl|app|co|ai)$/i.test(a))) return "m";
   if(a.includes("*")) return "w";
   if(/(github\.com|gitlab\.com|bitbucket\.org)\//i.test(a)) return "c";
   if(/^(\d{1,3}\.){3}\d{1,3}(\/\d{1,2})?$|^(\d{1,3}\.){3}\d{1,3}\s*-\s*(\d{1,3}\.){3}\d{1,3}$|^[0-9a-f:]+:[0-9a-f:]*(\/\d+)?$/i.test(a)) return "i";
